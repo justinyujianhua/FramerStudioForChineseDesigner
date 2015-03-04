@@ -36,10 +36,12 @@ Framer默认缺省值允许你在创建模板时，覆盖层和动画的默认�
 
 > Override the default background color for layers
 给这个层替换背景颜色
+
 Framer.Defaults.Layer.backgroundColor = "red"
 
 > Override the default corner radius for layers
 给这个层替换默认圆角
+
 Framer.Defaults.Layer.borderRadius = 10
 
 layerA = new Layer()
@@ -57,12 +59,14 @@ print layerA.borderRadius
 
 > Override the default animation options for all Animations
 对所有的动画重写这个默认的动画选项
+
 Framer.Defaults.Animation = {
     curve: "spring(100,10,0)"
 }
 
 > Override the default corner radius for layers
 对层重写这个默认的圆角
+
 Framer.Defaults.Layer.borderRadius = 10
 
 layerA = new Layer()
