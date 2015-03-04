@@ -47,7 +47,9 @@ Framer.Defaults.Layer.backgroundColor = "red"
 	给这个层替换默认圆角
 
 Framer.Defaults.Layer.borderRadius = 10
+
 layerA = new Layer()
+
 print layerA.backgroundColor
 
 	Output: "red"
@@ -72,9 +74,13 @@ Framer.Defaults.Animation = {
 	对层重写这个默认的圆角
 
 Framer.Defaults.Layer.borderRadius = 10
+
 layerA = new Layer()
+
 layerA.animate({
+
     properties: {x:100}
+    
 })
 
 	The animation will now use the "spring(100,10,0)" curve
