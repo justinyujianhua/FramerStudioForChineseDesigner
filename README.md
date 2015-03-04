@@ -10,6 +10,7 @@ Print（打印输出）
 
 
 print "Hello"
+
 	Output: "Hello"
 	你可以用他检查任何类型的值，当然也可以同时检查多个类型的值
 
@@ -28,6 +29,9 @@ print layerA.x, print layerA.opacity, layerA.name
 	Output: 20, 1.0, "Hi"
 
 
+
+
+
 Defaults(默认)
 ------------------------------------------------------------------------
 Framer默认缺省值允许你在创建模板时，覆盖层和动画的默认属性（译者按：创建时，会给你的层和动画一个默认的值）
@@ -43,11 +47,13 @@ Framer.Defaults.Layer.backgroundColor = "red"
 	给这个层替换默认圆角
 
 Framer.Defaults.Layer.borderRadius = 10
-
 layerA = new Layer()
 print layerA.backgroundColor
+
 	Output: "red"
+
 print layerA.borderRadius
+
 	Output: 10
 
 
@@ -66,7 +72,6 @@ Framer.Defaults.Animation = {
 	对层重写这个默认的圆角
 
 Framer.Defaults.Layer.borderRadius = 10
-
 layerA = new Layer()
 layerA.animate({
     properties: {x:100}
