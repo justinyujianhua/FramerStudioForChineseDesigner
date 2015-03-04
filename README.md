@@ -11,8 +11,7 @@ Print（打印输出）
 
 print "Hello"
 	Output: "Hello"
-
-你可以用他检查任何类型的值，当然也可以同时检查多个类型的值
+	你可以用他检查任何类型的值，当然也可以同时检查多个类型的值
 
 layerA = new Layer({x:20, name:"Hi"})
 
@@ -36,12 +35,12 @@ Framer默认缺省值允许你在创建模板时，覆盖层和动画的默认�
 
 
 	Override the default background color for layers
-给这个层替换背景颜色
+	给这个层替换背景颜色
 
 Framer.Defaults.Layer.backgroundColor = "red"
 
 	Override the default corner radius for layers
-给这个层替换默认圆角
+	给这个层替换默认圆角
 
 Framer.Defaults.Layer.borderRadius = 10
 
@@ -57,14 +56,14 @@ print layerA.borderRadius
 
 
 	Override the default animation options for all Animations
-对所有的动画重写这个默认的动画选项
+	对所有的动画重写这个默认的动画选项
 
 Framer.Defaults.Animation = {
     curve: "spring(100,10,0)"
 }
 
 	Override the default corner radius for layers
-对层重写这个默认的圆角
+	对层重写这个默认的圆角
 
 Framer.Defaults.Layer.borderRadius = 10
 
@@ -74,6 +73,6 @@ layerA.animate({
 })
 
 	The animation will now use the "spring(100,10,0)" curve
-这个动画现在将使用spring(100,10,0)这个曲线
+	这个动画现在将使用spring(100,10,0)这个曲线
 
 
